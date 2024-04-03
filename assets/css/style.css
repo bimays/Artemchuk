@@ -96,7 +96,7 @@ h6 {
     background-color: #82e0c2;
 
     position: absolute;
-    top: 135%;
+    top: 155%;
     left: 0;
     z-index: 1
 }
@@ -232,7 +232,6 @@ h6 {
     color: #EFC8C8;
     text-decoration: none;
     font-size: 2em;
-    cursor: pointer;
     flex-basis: 30%;
     backdrop-filter: blur(2px);
     justify-content: top;
@@ -259,24 +258,17 @@ h6 {
 /*TITLES*/
 
 .titleR {
-    margin-top: 2vh;
+    margin: 0;
+    padding-bottom: 20%;
     text-transform: uppercase;
     text-decoration: underline;
     font-size: 1.5em;
 }
 
 .titleP {
-    margin-top: 2vh;
-    top: 80%;
+    margin: 0;
+    padding-bottom: 20%;
     text-transform: uppercase;
     text-decoration: underline;
     font-size: 1.5em;
-}
-
-.resumeText {
-    height: 100%;
-}
-
-.projectsText {
-    height: 100%;
 }
